@@ -39,3 +39,12 @@
 #
 # else:
 #     print('for commpleto com sucesso')
+
+valor = 904
+contador = 0
+
+for i in range(valor):
+    if i % 3 == 0:
+        contador += 1
+
+print(contador)
